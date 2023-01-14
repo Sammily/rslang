@@ -1,8 +1,8 @@
 import { IWords, IUser, IID, ILogin, IUserWord, IUserGetWord, IUserStat } from '../app/interfaces';
 
-const wordList = 'https://rs-lang2022.herokuapp.com/words';
-const userList = 'https://rs-lang2022.herokuapp.com/users';
-const userLogin = 'https://rs-lang2022.herokuapp.com/signin';
+const wordList = 'https://rslang-backend-wodq.onrender.com/words';
+const userList = 'https://rslang-backend-wodq.onrender.com/users';
+const userLogin = 'https://rslang-backend-wodq.onrender.com/signin';
 
 export async function getWords(page = 0, group = 0): Promise<IWords[]> {
     const response = await fetch(`${wordList}?page=${page}&group=${group}`);
