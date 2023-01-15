@@ -2,7 +2,7 @@
 
 [**Figma**](https://www.figma.com/file/4jPiyo9YJfTs91ZpBBgq55/RSS-Lang-prototype)
 
-[**Deploy**](https://rslang-tanik-sam.netlify.app/)
+[**Deploy**](https://remarkable-gaufre-6d15b2.netlify.app/)
 
 [**Presentation**](https://rslang-tanik-sam-presentation.netlify.app/)
 
