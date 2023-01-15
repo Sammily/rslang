@@ -9,7 +9,7 @@ import {
     upsertUserStatistics,
 } from '../../controller/fetch';
 
-const serverName = 'https://rs-lang2022.herokuapp.com/';
+const serverName = 'https://rslang-backend-wodq.onrender.com/';
 // const serverName = 'http://localhost:3000/';
 
 class AudioChallengeGame {
