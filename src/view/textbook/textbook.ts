@@ -123,7 +123,7 @@ class Textbook {
             (wordClone.querySelector('.textbook-words__word-btn') as HTMLElement).setAttribute('id', `vol ${item.id}`);
             (wordClone.querySelector(
                 '.textbook-words__image'
-            ) as HTMLElement).style.backgroundImage = `url("https://rs-lang2022.herokuapp.com/${item.image}")`;
+            ) as HTMLElement).style.backgroundImage = `url("https://rslang-backend-wodq.onrender.com/${item.image}")`;
             (wordClone.querySelector('.learned') as HTMLElement).setAttribute('id', `del ${item.id}`);
             (wordClone.querySelector('.difficult') as HTMLElement).setAttribute('id', `dif ${item.id}`);
             if (this.group === 6) {
@@ -183,9 +183,9 @@ class Textbook {
                     );
                     const audio = new Audio();
                     const tracks = [
-                        `https://rs-lang2022.herokuapp.com/${word.audio}`,
-                        `https://rs-lang2022.herokuapp.com/${word.audioMeaning}`,
-                        `https://rs-lang2022.herokuapp.com/${word.audioExample}`,
+                        `https://rslang-backend-wodq.onrender.com/${word.audio}`,
+                        `https://rslang-backend-wodq.onrender.com/${word.audioMeaning}`,
+                        `https://rslang-backend-wodq.onrender.com/${word.audioExample}`,
                     ];
                     let current = 0;
                     [audio.src] = tracks;

@@ -26,7 +26,7 @@ class AudioChallenge {
     }
 }
 
-window.onload = function audioChallengeInit(): void {
+window.addEventListener('pageshow', () => {
     const audioChallenge: AudioChallenge = new AudioChallenge();
     local();
     if (localStorage.flag === 'game') {
@@ -35,10 +35,10 @@ window.onload = function audioChallengeInit(): void {
     } else {
         audioChallenge.drawWelcome();
     }
-};
+});
 
-window.onunload = function audioChallengeClose(): void {
+window.addEventListener('pagehide', () => {
     localStorage.removeItem('flag');
-};
+});
 
 export default AudioChallenge;
