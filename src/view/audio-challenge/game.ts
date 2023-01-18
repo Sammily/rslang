@@ -505,7 +505,6 @@ class AudioChallengeGame {
         const { sprintAll } = this.userStats.optional;
         const { sprintSeria } = this.userStats.optional;
         await this.getUserWordsData();
-        console.log(newLearnedWords, sprintSeria, sprintSuc, sprintAll, maxSeries, successAttempts, allAttempts);
         this.addUserStatistic(
             newLearnedWords,
             sprintSeria,
